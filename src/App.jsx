@@ -1,3 +1,4 @@
+import Form from "./page/Form/Form"
 
 function App() {
 
@@ -5,10 +6,9 @@ function App() {
   return (
     <>
    
-      <h1 className="bg-red-500 text-3xl">Socket io </h1>
-      <p className="text-primary">primary</p>
-      <p className="text-secondary">scondary</p>
-      <p className="text-light">light</p>
+     <div className=" flex justify-center items-center  bg-red-200 h-screen">
+      <Form ></Form>
+     </div>
      
     </>
   )
