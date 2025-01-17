@@ -8,7 +8,7 @@ const Input = ({
   placeholder = " ",
 }) => {
  return (
- <div className='flex flex-col justify-center '>
+ <div className='flex flex-col justify-center  w-full'>
   <label htmlFor={name} className='mb-2'> {laval}</label>
   <input className='border  p-1' id={name} type={type}  placeholder={placeholder} required={isRequire} />
  </div>
